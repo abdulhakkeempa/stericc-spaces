@@ -2142,7 +2142,7 @@ section {
 }
 
 .pre-loader{
-  display: none;
+  visibility: hidden;;
 }
 .loader{
   position: absolute;

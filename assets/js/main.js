@@ -192,5 +192,5 @@ window.addEventListener("load",function(){
 function myFunction(){
   loader.style.opacity = 0.5
   loader.style.display = "none";
-  content.style.display = "block";
+  content.style.visibility = "visible";
 }
