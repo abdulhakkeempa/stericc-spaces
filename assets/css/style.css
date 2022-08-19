@@ -101,6 +101,16 @@ h6 {
   max-height: 40px;
 }
 
+/* about page */
+.button-color-about-page{
+  color: white;
+  background-color: #5a9626;
+  transition-duration: 0.8s;
+}
+.button-color-about-page:hover{
+  color: white;
+  background-color: #457d13;
+}
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -148,7 +158,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #d9232d;
+  color: #0254a2;
 }
 
 .navbar .getstarted,
@@ -467,7 +477,7 @@ h6 {
 
 #hero .carousel-indicators li.active {
   opacity: 1;
-  background: #d9232d;
+  background: #5a9626;
 }
 
 #hero .btn-get-started {
@@ -483,11 +493,12 @@ h6 {
   color: #fff;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  background: #d9232d;
+  background: #5a9626
+  ;
 }
 
 #hero .btn-get-started:hover {
-  background: #df3740;
+  background: #487e19;
 }
 
 @media (max-width: 992px) {
@@ -726,7 +737,7 @@ section {
 }
 
 .services .icon-box:hover h4 a {
-  color: #d9232d;
+  color: #0057da;
 }
 
 /*--------------------------------------------------------------
