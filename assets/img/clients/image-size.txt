@@ -1,0 +1,1 @@
+width of the image should be nearly 400px 
