@@ -94,7 +94,7 @@ h6 {
 }
 
 #header .logo a {
-  color: #556270;
+  color: #0254a2;
 }
 
 #header .logo img {
@@ -153,7 +153,7 @@ h6 {
 
 .navbar .getstarted,
 .navbar .getstarted:focus {
-  background: #d9232d;
+  background: #0254a2;
   padding: 8px 25px;
   margin-left: 30px;
   border-radius: 4px;
@@ -164,7 +164,7 @@ h6 {
 .navbar .getstarted:hover,
 .navbar .getstarted:focus:hover {
   color: #fff;
-  background: #e1444d;
+  background: #0254a2;
 }
 
 .navbar .dropdown ul {
