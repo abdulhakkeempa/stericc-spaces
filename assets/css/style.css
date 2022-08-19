@@ -772,7 +772,7 @@ section {
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
   color: #fff;
-  background: #d9232d;
+  background: #5a9626;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -1080,12 +1080,12 @@ section {
 }
 
 .features .nav-link:hover {
-  color: #d9232d;
+  color: #5a9626;
 }
 
 .features .nav-link.active {
-  color: #d9232d;
-  border-color: #d9232d;
+  color: #5a9626;
+  border-color: #4a8418;
 }
 
 .features .tab-pane.active {
@@ -1116,7 +1116,7 @@ section {
 
   .features .nav-link.active {
     color: #fff;
-    background: #d9232d;
+    background: #5a9626;
   }
 }
 
