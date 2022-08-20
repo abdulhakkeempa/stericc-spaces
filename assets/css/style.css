@@ -2144,6 +2144,7 @@ section {
 .pre-loader{
   visibility: hidden;;
 }
+
 .loader{
   position: absolute;
   top: 50%;  

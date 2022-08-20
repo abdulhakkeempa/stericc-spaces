@@ -183,14 +183,20 @@
 })()
 
 
-content = document.querySelector(".pre-loader")
-loader = document.querySelector(".loader")
-window.addEventListener("load",function(){
-  setTimeout(myFunction, 1500)
-})
+// content = document.querySelector(".pre-loader")
+// loader = document.querySelector(".loader")
+// window.addEventListener("load",function(){
+//   setTimeout(myFunction, 1500)
+// })
 
-function myFunction(){
-  loader.style.opacity = 0.5
-  loader.style.display = "none";
-  content.style.visibility = "visible";
-}
+// function myFunction(){
+//   loader.style.opacity = 0.5
+//   loader.style.opacity = 0.3
+//   loader.style.visibility = "hidden";
+//   content.style.visibility = "visible";
+// }
+
+$(window).on("load",function(){
+  $(".pre-loader-img").fadeOut(2500);
+  setTimeout( function(){$(".pre-loader").css("visibility","visible");},2500);
+});
