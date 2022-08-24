@@ -2154,3 +2154,11 @@ section {
   transition-duration: 0.5s;
   opacity:  1;
 }
+
+.down-button{
+  color: gray;
+  transition-duration: 0.5s;
+}
+.down-button:hover{
+  color: #5a9626;
+}
