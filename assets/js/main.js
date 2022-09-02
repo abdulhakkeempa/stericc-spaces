@@ -197,6 +197,6 @@
 // }
 
 $(window).on("load",function(){
-  $(".pre-loader-img").fadeOut(2500);
-  setTimeout( function(){$(".pre-loader").css("visibility","visible");},2500);
+  $(".pre-loader-img").fadeOut(5000);
+  setTimeout( function(){$(".pre-loader").css("visibility","visible");},5000);
 });

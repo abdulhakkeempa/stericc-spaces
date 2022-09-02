@@ -2164,3 +2164,27 @@ section {
 .down-button:hover{
   color: #5a9626;
 }
+.pre-loader-img{
+  animation: blinking 5s infinite;
+  opacity: 1 ;
+}
+@keyframes blinking {
+  0% {
+    opacity: 1 ;
+  }
+  20% {
+    opacity: 0 ;
+  }
+  40% {
+    opacity: 1 ;
+  }    
+  60%{
+    opacity: 0;
+  }
+  80%{
+    opacity: 1;
+  }  
+  100% {
+    opacity: 0;
+  }
+}
