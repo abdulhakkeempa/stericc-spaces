@@ -195,18 +195,35 @@ fetch("data/testimonials.json")
     return response.json();
   })
   .then(function (data) {
-    // appendData(data);
+    appendData(data);
     console.log(data[0])
   })
   .catch(function (err) {
     console.log('error: ' + err);
   });
 
-// function appendData(data) {
-//   var mainContainer = document.getElementById("myData");
-//   for (var i = 0; i < data.length; i++) {
-//       var div = document.createElement("div");
-//       div.innerHTML = 'Name: ' + data[i].firstName + ' ' + data[i].lastName;
-//       mainContainer.appendChild(div);
-//   }
-// }
+function appendData(data) {
+  var mainContainer = document.getElementById("testi");
+  for (var i = 0; i < data.length; i++) {
+      var photo = data[i].profile
+      if(data[i].profile==""){
+        photo = "data/profile/avatar.png"
+      }
+      div = `
+      <div class="col-lg-6">
+      <div class="testimonial-item mt-4 mt-lg-0">
+        <img src="${photo}" class="testimonial-img" alt="">
+        <h3>${data[i].name}</h3>
+        <h4>${data[i].designation}</h4>
+        <p>
+          <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+            ${data[i].review}
+          <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+        </p>
+      </div>
+    </div>`
+    mainContainer.insertAdjacentHTML('beforeend', div);
+
+
+  }
+}

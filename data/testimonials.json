@@ -2,7 +2,7 @@
     {
         "name":"Name",
         "designation":"Designation",
-        "profile":"profile/avatar.png",
+        "profile":"assets/img/testimonials/testimonials-1.jpg",
         "review":"Review"
     },
     {
@@ -10,5 +10,17 @@
         "designation":"Designation",
         "profile":"",
         "review":"Review"
-    }
+    },
+    {
+        "name":"Name",
+        "designation":"Designation",
+        "profile":"data/profile/avatar.png",
+        "review":"Review"
+    },
+    {
+        "name":"Name",
+        "designation":"Designation",
+        "profile":"",
+        "review":"Review"
+    }    
 ]
