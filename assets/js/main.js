@@ -188,3 +188,25 @@ $(window).on("load",function(){
     $(".pre-loader-img").fadeOut(5000);
     setTimeout( function(){$(".pre-loader").css("visibility","visible");},5000);
 });
+
+
+fetch("data/testimonials.json")
+  .then(function(response) {
+    return response.json();
+  })
+  .then(function (data) {
+    // appendData(data);
+    console.log(data[0])
+  })
+  .catch(function (err) {
+    console.log('error: ' + err);
+  });
+
+// function appendData(data) {
+//   var mainContainer = document.getElementById("myData");
+//   for (var i = 0; i < data.length; i++) {
+//       var div = document.createElement("div");
+//       div.innerHTML = 'Name: ' + data[i].firstName + ' ' + data[i].lastName;
+//       mainContainer.appendChild(div);
+//   }
+// }
